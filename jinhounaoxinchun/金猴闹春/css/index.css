@@ -1,0 +1,278 @@
+/*活动首页*/
+.index_bg{
+    position: absolute;
+    top:0;
+	width:640px;
+	max-height:1136px;
+	min-height:960px;
+	height:100%;
+	background:url("../image/index_bg.jpg") no-repeat;
+}
+.index_hongbao_btn{
+    width:332px;
+    height: 99px;
+    background: url("../image/index_hongbao_btn_03_03.png") no-repeat;
+    position: absolute;
+    top:260px;
+    left:50%;
+    margin-left: -166px;
+}
+/*红包缩放动画*/
+.index_hongbao_btn{
+    -webkit-animation: p7w9 0.8s infinite;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-fill-mode:forwards ;
+}
+@-webkit-keyframes p7w9{
+    from{
+        -webkit-transform: scale(0.8);
+    }
+    50%{
+        -webkit-transform: scale(1);
+    }
+    to{
+        -webkit-transform: scale(0.8);
+    }
+}
+.index_huodong_btn{
+    width:194px;
+    height: 87px;
+    background: url("../image/index_rule_btn.png") no-repeat;
+    position: absolute;
+    top:850px;
+}
+.index_rule_btn{
+    width:194px;
+    height: 87px;
+    background: url("../image/index_query_btn.png") no-repeat;
+    position: absolute;
+    top:850px;
+    right:0px;
+}
+/*抢红包*/
+.play_bg{
+    position: absolute;
+    top:0;
+    width:640px;
+    max-height:1136px;
+    min-height:960px;
+    height:100%;
+    background:url("../image/play_bg.jpg") no-repeat;
+}
+.play_back{
+    width:137px;
+    height: 40px;
+    position: absolute;
+    background: url("../image/play_back.png") no-repeat;
+    top:50px;
+    right:20px;
+}
+.play_hongbao{
+    width:550px;
+    height:500px;
+    position:absolute;
+    top:1136px;
+    left:50px;
+}
+.play_hongbao>li{
+    width:180px;
+    height: 204px;
+    float:left;
+    margin-bottom: 70px;
+}
+.play_hongbao_1{
+    background: url("../image/play_redbox_1.png") no-repeat;
+}
+.play_hongbao_2{
+    background: url("../image/play_redbox_2_03.png") no-repeat;
+}
+.play_hongbao_3{
+    background: url("../image/play_redbox_3_03.png") no-repeat;
+}
+.play_hongbao_4{
+    background: url("../image/play_redbox_4_03.png") no-repeat;
+}
+.play_hongbao_5{
+    background: url("../image/play_redbox_5_03.png") no-repeat;
+}
+.play_hongbao_6{
+    background: url("../image/play_redbox_6_03.png") no-repeat;
+}
+.play_bottom{
+    width: 640px;
+    height:393px;
+    position: absolute;
+    top:740px;
+    left:0px;
+    background: url("../image/play_bottom_bg.png") no-repeat;
+}
+/*活动介绍*/
+.rule_bg{
+    width:640px;
+    max-height:1136px;
+    min-height:960px;
+    height: 100%;
+    position: absolute;
+    top:0px;
+    left:0px;
+    background: url("../image/rule_bg.jpg") no-repeat;
+}
+.rule_back,.huodong_back{
+    width:83px;
+    height: 73px;
+    background: url("../image/query_close_btn.jpg") no-repeat;
+    position: absolute;
+    top:0px;
+    right:10px;
+}
+.rule_fuji{
+    width:467px;
+    height:700px;
+    position: absolute;
+    top:220px;
+    left:90px;
+    overflow-y: auto;
+}
+.rule_font{
+    width:467px;
+    height:3055px;
+    background: url("../image/rule_text.jpg") no-repeat;
+}
+/*活动页*/
+.huodong_bg{
+    width: 640px;
+    max-height:1136px;
+    min-height:960px;
+    height: 100%;
+    background: url("../image/query_yes_bg.jpg") no-repeat;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.huodong_50M{
+    width:320px;
+    height: 151px;
+    background: url("../image/query_yes_50_bg.png") no-repeat;
+    position: absolute;
+    top: 210px;
+    left:180px;
+}
+/*抽奖页面*/
+.red_mask{
+    width:640px;
+    max-height:1136px;
+    min-height:960px;
+    height: 100%;
+    position: absolute;
+    background: #000000;
+    opacity: 0.6;
+}
+.red_close{
+    width:73px;
+    height: 73px;
+    background: url("../image/main_close.png") no-repeat;
+    position: absolute;
+    top:-30px;
+    right:-20px;
+}
+.red_bg{
+    width:495px;
+    height: 630px;
+    background: url("../image/red_index_1_bg_03.png") no-repeat;
+    position: absolute;
+    top:150px;
+    left:80px;
+}
+.red_top{
+    width:410px;
+    height: 40px;
+    position: absolute;
+    top:80px;
+    left: 45px;
+    font-size: 40px;
+    text-align: center;
+    color:#b93e07;
+    font-weight: bold;
+}
+.red_title{
+    width:410px;
+    height: 40px;
+    position: absolute;
+    top:280px;
+    left: 40px;
+    text-align: center;
+    font-size: 24px;
+    color:#ffffff;
+}
+.red_content{
+    width:410px;
+    height: 40px;
+    position: absolute;
+    top:320px;
+    left: 40px;
+    text-align: center;
+    font-size: 22px;
+    color:#ffffff;
+}
+.red_hongbao{
+    width:321px;
+    height: 93px;
+    background: url("../image/red_index1_btn_03.png") no-repeat;
+    position: absolute;
+    top: 470px;
+    left: 100px;
+}
+/*中奖页面*/
+.prize_bg{
+    width:640px;
+    height: 808px;
+    background: url("../image/result_yes_bg_02.png") no-repeat;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-left: -320px;
+    margin-top:-454px;
+}
+.prize_close{
+    width:73px;
+    height: 73px;
+    background: url("../image/main_close.png") no-repeat;
+    position: absolute;
+    top: -30px;
+    right:30px;
+}
+.prize_50M{
+    width:390px;
+    height: 78px;
+    background: url("../image/result_yes_50.png") no-repeat;
+    position: absolute;
+    top: 260px;
+    left:130px;
+}
+.prize_hongbao{
+    width:319px;
+    height: 99px;
+    background: url("../image/result_no_comeon_btn.png") no-repeat;
+    position: absolute;
+    top: 400px;
+    left: 150px;
+}
+.prize_fenxiang{
+    width:319px;
+    height: 99px;
+    background: url("../image/result_no_liwulianjie_btn.png") no-repeat;
+    position: absolute;
+    top: 520px;
+    left: 150px;
+}
+/*分享页*/
+.share_bg{
+    width:640px;
+    max-height:1136px;
+    min-height:960px;
+    height: 100%;
+    background: url("../image/share_bg_1.jpg") no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
